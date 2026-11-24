@@ -1,0 +1,20 @@
+# 独立维护的子仓库
+/blog-web/
+/blog-admin/
+/blog-server/
+
+# 本地环境配置
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# 本地运行数据和日志
+/data/
+/logs/
+*.log
+
+# IDE 和系统生成文件
+.idea/
+.DS_Store
+Thumbs.db
